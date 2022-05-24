@@ -1,0 +1,33 @@
+<Load>:
+    FloatLayout:
+        size: root.width, root.height
+        Button:
+            text: 'Go to disclaimer'
+            size_hint : 0.2, 0.1
+            pos_hint : {"x":0.25, "top":0.9}
+            on_press: 
+                root.manager.transition.direction = 'left'      
+                root.manager.current = 'disclaimer'
+
+
+<Disclaimer>:
+    FloatLayout:
+        size: root.width, root.height
+        Button:
+            text: 'login'
+            size_hint : 0.2, 0.1
+            pos_hint : {"x":0.25, "top":0.9}
+            on_press:    
+                root.manager.transition.direction = 'right'      
+                root.manager.current = 'login'
+
+        Button:
+            text: 'Quit'
+            size_hint : 0.2, 0.1
+            pos_hint : {"x":0.60, "top":0.2}
+            on_press: 
+                exit()
+
+
+<Login>:
+    FloatLayout:
