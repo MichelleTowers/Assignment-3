@@ -1,0 +1,615 @@
+.header-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-tripleunit);
+  padding-left: var(--dl-space-space-fourunits);
+  padding-right: var(--dl-space-space-fourunits);
+  padding-bottom: var(--dl-space-space-tripleunit);
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.header-navlink {
+  display: contents;
+}
+.header-image {
+  height: 2rem;
+  text-decoration: none;
+}
+.header-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-tenunits);
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.header-nav1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.header-team-profile {
+  transition: 0.3s;
+  text-decoration: none;
+}
+.header-team-profile:hover {
+  color: #5e1881;
+}
+.header-tools {
+  transition: 0.3s;
+  margin-left: 32px;
+  text-decoration: none;
+}
+.header-tools:hover {
+  color: #5e1881;
+}
+.header-project {
+  transition: 0.3s;
+  margin-left: 32px;
+  text-decoration: none;
+}
+.header-project:hover {
+  color: #5e1881;
+}
+.header-artifacts {
+  transition: 0.3s;
+  margin-left: 32px;
+  text-decoration: none;
+}
+.header-artifacts:hover {
+  color: #5e1881;
+}
+.header-skills-and-jobs {
+  transition: 0.3s;
+  margin-left: 32px;
+  text-decoration: none;
+}
+.header-skills-and-jobs:hover {
+  color: #5e1881;
+}
+.header-references {
+  transition: 0.3s;
+  margin-left: 32px;
+  text-decoration: none;
+}
+.header-references:hover {
+  color: #5e1881;
+}
+.header-root-class-name {
+  align-self: flex-start;
+}
+.header-root-class-name1 {
+  align-self: center;
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+  .header-header {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .header-nav {
+    display: none;
+  }
+  .header-nav1 {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .header-team-profile {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .header-tools {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .header-project {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .header-artifacts {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .header-skills-and-jobs {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .header-references {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .header-header {
+    padding: var(--dl-space-space-unit);
+  }
+}
+
+.footer-footer-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-color: rgba(217, 217, 217, 0.23);
+  border-width: 1px;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #272727;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+.footer-footer {
+  width: 100%;
+  height: 54px;
+  display: flex;
+  align-self: center;
+  padding-top: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+  justify-content: center;
+}
+.footer-all-content-has-been-produced-and-published-by-michelle-helia-and-blayne {
+  color: #ffffff;
+  align-self: flex-start;
+  text-align: center;
+}
+
+.footer-root-class-name1 {
+  align-self: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.skillsand-jobs-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.skillsand-jobs-text {
+  font-size: 3rem;
+  align-self: center;
+  margin-bottom: 30px;
+}
+.skillsand-jobs-container1 {
+  flex: 0 0 auto;
+  width: 70%;
+  display: flex;
+  align-items: flex-start;
+  border-color: #000000;
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 30px;
+  flex-direction: column;
+}
+.skillsand-jobs-text002 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.skillsand-jobs-text003 {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 4px;
+}
+.skillsand-jobs-text004 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.skillsand-jobs-text005 {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 4px;
+}
+.skillsand-jobs-text006 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.skillsand-jobs-text007 {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 4px;
+}
+.skillsand-jobs-text008 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.skillsand-jobs-text009 {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 4px;
+}
+.skillsand-jobs-text010 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.skillsand-jobs-text011 {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 4px;
+}
+.skillsand-jobs-text017 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.skillsand-jobs-text018 {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 4px;
+}
+.skillsand-jobs-text026 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.skillsand-jobs-text027 {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 4px;
+}
+.skillsand-jobs-text028 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.skillsand-jobs-text029 {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 4px;
+}
+.skillsand-jobs-text035 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.skillsand-jobs-text037 {
+  color: #2fadea;
+}
+.skillsand-jobs-container2 {
+  flex: 0 0 auto;
+  width: 70%;
+  display: flex;
+  align-items: flex-start;
+  border-color: #000000;
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 30px;
+  flex-direction: column;
+}
+.skillsand-jobs-text039 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.skillsand-jobs-text040 {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 4px;
+}
+.skillsand-jobs-text041 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.skillsand-jobs-text042 {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 4px;
+}
+.skillsand-jobs-text043 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.skillsand-jobs-text044 {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 4px;
+}
+.skillsand-jobs-text045 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.skillsand-jobs-text046 {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 4px;
+}
+.skillsand-jobs-text047 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.skillsand-jobs-text048 {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 4px;
+}
+.skillsand-jobs-text055 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.skillsand-jobs-text056 {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 4px;
+}
+.skillsand-jobs-text062 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.skillsand-jobs-text063 {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 4px;
+}
+.skillsand-jobs-text069 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.skillsand-jobs-text070 {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 4px;
+}
+.skillsand-jobs-text076 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.skillsand-jobs-text078 {
+  color: #2fadea;
+}
+.skillsand-jobs-container3 {
+  flex: 0 0 auto;
+  width: 70%;
+  display: flex;
+  align-items: flex-start;
+  border-color: #000000;
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 30px;
+  flex-direction: column;
+}
+.skillsand-jobs-text080 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.skillsand-jobs-text081 {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 4px;
+}
+.skillsand-jobs-text082 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.skillsand-jobs-text083 {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 4px;
+}
+.skillsand-jobs-text084 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.skillsand-jobs-text085 {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 4px;
+}
+.skillsand-jobs-text086 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.skillsand-jobs-text087 {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 4px;
+}
+.skillsand-jobs-text088 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.skillsand-jobs-text089 {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 4px;
+}
+.skillsand-jobs-text097 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.skillsand-jobs-text098 {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 4px;
+}
+.skillsand-jobs-text106 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.skillsand-jobs-text107 {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 4px;
+}
+.skillsand-jobs-text112 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.skillsand-jobs-text113 {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 4px;
+}
+.skillsand-jobs-text119 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.skillsand-jobs-text121 {
+  color: #2fadea;
+}
+.skillsand-jobs-container4 {
+  flex: 0 0 auto;
+  width: 70%;
+  display: flex;
+  align-items: flex-start;
+  border-color: #000000;
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 30px;
+  flex-direction: column;
+}
+.skillsand-jobs-text123 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.skillsand-jobs-text124 {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 4px;
+}
+.skillsand-jobs-text125 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.skillsand-jobs-text126 {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 4px;
+}
+.skillsand-jobs-text127 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.skillsand-jobs-text128 {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 4px;
+}
+.skillsand-jobs-text129 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.skillsand-jobs-text130 {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 4px;
+}
+.skillsand-jobs-text131 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.skillsand-jobs-text132 {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 4px;
+}
+.skillsand-jobs-text140 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.skillsand-jobs-text141 {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 4px;
+}
+.skillsand-jobs-text148 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.skillsand-jobs-text149 {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 4px;
+}
+.skillsand-jobs-text153 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.skillsand-jobs-text154 {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 4px;
+}
+.skillsand-jobs-text160 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.skillsand-jobs-text162 {
+  color: #2fadea;
+}
+@media(max-width: 991px) {
+  .skillsand-jobs-text {
+    text-align: center;
+  }
+}
+@media(max-width: 767px) {
+  .skillsand-jobs-text {
+    text-align: center;
+  }
+}
